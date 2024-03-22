@@ -1,6 +1,8 @@
 # Odoo Custom City Module
 
-This module adds a custom city model to Odoo and links it to the `res.partner` and `crm.lead` models. It also includes a state model that is linked to the cities.
+The city field in the res.partner and crm.lead models will now be a dropdown selection.
+
+This module adds a custom city model to Odoo and links it to the `res.partner` and `crm.lead` models. It also includes a state model that is linked to the cities. This will load the city data from the CSV file when the module is installed. The city field in the res.partner and crm.lead models will now be a dropdown selection field populated with the cities from the CSV file
 
 ## Features
 
